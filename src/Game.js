@@ -132,14 +132,9 @@ class Game extends React.Component {
                     />
                 </div>
                 <div className="game-info">
-                    {/* <div>{status}</div> */}
-                    {/* <button className="button" onClick={() => this.sortMoves()}>
-                        Sort moves
-                    </button> */}
                     <button className="button button--new-game" onClick={() => this.reset()}>
                         New game
                     </button>
-                    {/* <ol>{moves}</ol> */}
                 </div>
             </div>
         );
